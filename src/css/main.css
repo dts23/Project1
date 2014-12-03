@@ -88,15 +88,65 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+	
+	#wrapper {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	line-height: 30px;
+	}
+	
+	p.first{
+	color:black;
+	}
+	
+	p.second{
+	color:black;
+	}
+
+	#menu {
+	height: 56px;
+	line-height: 56px;
+	background-image: url('../img/back2.gif');
+	}
 
 
+	#menu li {
+	display: inline;
+	margin: 0px;
+	}
+	
+	#logo {
+	width: 86px;
+	height: 86px;
+	}
+	
+	#content {
+	width: 898px;
+	padding-left: 31px;
+	padding-right: 31px;
+	text-align: justify;
+	float: left;
+	background: #A67A23;
+	}
+	
+	#menu ul {
+	margin-left: 598px;
+	margin-top: 0px;
+	}
 
-
-
-
-
-
-
+	#menu a{
+	color: white;
+	}
+	
+	#article_photo img {
+	height: 338px;
+	width: 338px;
+	float: right;
+	padding: 9px;
+	margin: 10px;
+	}
 
 
 
