@@ -147,6 +147,58 @@ textarea {
 	padding: 9px;
 	margin: 10px;
 	}
+	
+	#validate{
+	margin-left: auto ;
+    margin-right: auto ;
+	}
+	
+	/* example styles for validation form demo */
+	#register-form {
+		background: #737B67;
+		border: 1px solid #DFDCDC;
+		border-radius: 15px 15px 15px 15px;
+		display: inline-block;
+		margin-bottom: 30px;
+		margin-left: 20px;
+		margin-top: 10px;
+		padding: 25px 50px 10px;
+		width: 350px;
+	}
+	 
+	#register-form .fieldgroup {
+		display: inline-block;
+		padding: 8px 10px;
+		width: 340px;
+	}
+	 
+	#register-form .fieldgroup label {
+		float: left;
+		padding: 15px 0 0;
+		text-align: right;
+		width: 110px;
+	}
+	 
+	#register-form .fieldgroup input, #register-form .fieldgroup textarea, #register-form .fieldgroup select {
+		float: right;
+		margin: 10px 0;
+		height: 25px;
+	}
+	 
+	#register-form .submit {
+		padding: 10px;
+		width: 220px;
+		height: 40px !important;
+	}
+	 
+	#register-form .fieldgroup label.error {
+		color: #FB3A3A;
+		display: inline-block;
+		margin: 4px 0 5px 125px;
+		padding: 0;
+		text-align: left;
+		width: 220px;
+	}
 
 
 
@@ -313,4 +365,8 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+	
+	
+	
+	
 }
